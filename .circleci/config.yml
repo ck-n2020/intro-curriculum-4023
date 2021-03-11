@@ -3,6 +3,9 @@ jobs:
   build:
     docker:
       - image: circleci/node:10.14.2
+    branches:
+      only:
+        - master-2020
 
     working_directory: ~/repo
 
