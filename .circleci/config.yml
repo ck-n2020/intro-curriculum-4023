@@ -6,6 +6,7 @@ jobs:
     branches:
       only:
         - master-2020
+
     working_directory: ~/repo
 
     steps:
